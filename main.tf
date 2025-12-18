@@ -1,6 +1,6 @@
 resource "proxmox_vm_qemu" "vm" {
     name        = "terraform-vm"
-    target_node = "agafonov"  
+    target_node = "sokolov"  
     
     # Ресурсы
     cpu {
@@ -37,8 +37,8 @@ resource "proxmox_vm_qemu" "vm" {
     kvm = false
     
     # Cloud-init настройки 
-    # ciuser     = "agafonov"
-    # ipconfig0  = "ip=192.168.0.202/24,gw=192.168.0.1"
+    # ciuser     = "sokolov"
+    # ipconfig0  = "ip=192.168.0.205/24,gw=192.168.0.1"
      
     vm_state = "stopped"
     

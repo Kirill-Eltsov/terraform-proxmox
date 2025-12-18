@@ -16,6 +16,6 @@ variable "proxmox_api_token_secret" {
 }
 
 variable "ssh_public_key" {
-    description = "Публичный SSH ключ"
+    description = "Публичный SSH ключчч"
     type = string
 }
